@@ -1,6 +1,6 @@
 # Site for the Mood
 
-[TODO. There will be project description]
+This site shows random mood phrase
 
 # Project Goals
 

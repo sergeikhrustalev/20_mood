@@ -21,5 +21,17 @@
   </script>
 </head>
 <body>
+    <h1 id="phrase"></h1>
+    <p id="signature"></p>
+    <script>
+      var quotes = JSON.parse(document.getElementById("quotes_json").innerText);
+      var phrase = document.getElementById("phrase");
+      var signature = document.getElementById("signature");
+      var randomQuote = quotes[Math.floor(Math.random() * quotes.length)];
+      phrase.innerText = randomQuote.phrase;
+      if (randomQuote.signature != undefined){
+        signature.innerText = randomQuote.signature;
+      }
+    </script>
 </body>
 </html>
