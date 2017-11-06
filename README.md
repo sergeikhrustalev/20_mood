@@ -1,6 +1,6 @@
 # Site for the Mood
 
-This site shows random mood phrase
+This site shows random mood phrases.  
 Online version of the site available [here](https://sergeikhrustalev.github.io/20_mood/)
 
 # Project Goals
